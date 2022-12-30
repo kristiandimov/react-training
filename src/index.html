@@ -7,7 +7,6 @@
       name="description"
       content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -15,33 +14,60 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
     <div class="main">
-      <div class="tabs is-toggle is-toggle-rounded is-large">
-        <ul>
-          <li class="is-active">
-            <a href="/">
-              <i class="fa-solid fa-house"></i>
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="/profile.html">
-              <i class="fa-solid fa-user"></i>
-              Profile
-            </a>
-          </li>
-          <li>
-            <a href="/contact.html">
-              <i class="fa-solid fa-address-book"></i>
-              Contact
-            </a>
-          </li>
-        </ul>
-      </div>
       <div class="box">
-        <p>Welcome!</p>
+        <nav class="navbar">
+          <ul class="navbar-item">
+            
+            <li>
+              <div class="logo navbar-item">
+                <i class="fa-solid fa-bomb navbar-item"></i>
+              </div>
+            </li>
+            <li>
+              <div class="field has-addons navbar-item">
+                <p class="control">
+                  <input
+                    class="input is-medium is-rounded"
+                    type="text"
+                    placeholder="Search a skill"
+                  />
+                </p>
+                <p class="control">
+                  <button class="button is-rounded is-medium">Search</button>
+                </p>
+              </div>
+            </li>
+            <li>
+              <a>
+                <i class="fa-solid fa-house"></i>
+              </a>
+            </li>
+            <li>
+              <a>
+                <i class="fa-solid fa-comment-dots"></i>
+              </a>
+            </li>
+            <li>
+              <a>
+                <i class="fa-solid fa-suitcase"></i>
+              </a>
+            </li>
+            <li>
+              <a>
+                <i class="fa-solid fa-bell"></i>
+              </a>
+            </li>
+            <li>
+              <a>
+                <i class="fa-brands fa-discord"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
   </body>
